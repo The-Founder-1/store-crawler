@@ -1,0 +1,29 @@
+@media screen and (max-width: 2000px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .About-the-tool {
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  ul {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid gray;
+    list-style: none;
+    display: none;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  ul li {
+    padding: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    border-bottom: 0.5px solid gray;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+}
